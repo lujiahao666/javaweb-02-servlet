@@ -1,0 +1,20 @@
+/*
+servlet 服务器原理
+httpServletReponse
+负责向浏览器发送数据的方法
+getoutputstream
+getwriter
+负责向浏览器发送响应头的方法
+常见应用
+向浏览器输出消息
+下载文件
+    要获取下载文件的路径
+    下载的文件名是啥
+    设置想办法让浏览器能够支持下载我们需要的东西
+    获取下载文件的输入流
+    创建缓冲区
+    通过获取outputstream对象
+    将fileoutputstream流写入到buffer缓冲区
+    使用outputstram将缓冲区数据输出到客户端
+
+*/
